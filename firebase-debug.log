@@ -1,0 +1,44 @@
+[debug] [2026-01-05T05:49:09.548Z] ----------------------------------------------------------------------
+[debug] [2026-01-05T05:49:09.553Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2026-01-05T05:49:09.554Z] CLI Version:   15.1.0
+[debug] [2026-01-05T05:49:09.554Z] Platform:      win32
+[debug] [2026-01-05T05:49:09.554Z] Node Version:  v24.12.0
+[debug] [2026-01-05T05:49:09.554Z] Time:          Mon Jan 05 2026 11:19:09 GMT+0530 (India Standard Time)
+[debug] [2026-01-05T05:49:09.554Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-01-05T05:49:12.122Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T05:49:12.123Z] > authorizing via signed-in user (sahityaharshini123@gmail.com)
+[debug] [2026-01-05T05:49:12.123Z] [iam] checking project carbon-footprint-tracker-8f346 for permissions ["firebase.projects.get"]
+[debug] [2026-01-05T05:49:12.124Z] Checked if tokens are valid: true, expires at: 1767595373879
+[debug] [2026-01-05T05:49:12.124Z] Checked if tokens are valid: true, expires at: 1767595373879
+[debug] [2026-01-05T05:49:12.125Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/carbon-footprint-tracker-8f346:testIamPermissions [none]
+[debug] [2026-01-05T05:49:12.126Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/carbon-footprint-tracker-8f346:testIamPermissions x-goog-quota-user=projects/carbon-footprint-tracker-8f346
+[debug] [2026-01-05T05:49:12.126Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/carbon-footprint-tracker-8f346:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-05T05:49:16.379Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/carbon-footprint-tracker-8f346:testIamPermissions 200
+[debug] [2026-01-05T05:49:16.379Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/carbon-footprint-tracker-8f346:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-05T05:49:16.380Z] Checked if tokens are valid: true, expires at: 1767595373879
+[debug] [2026-01-05T05:49:16.380Z] Checked if tokens are valid: true, expires at: 1767595373879
+[debug] [2026-01-05T05:49:16.380Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/carbon-footprint-tracker-8f346 [none]
+[debug] [2026-01-05T05:49:16.814Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/carbon-footprint-tracker-8f346 200
+[debug] [2026-01-05T05:49:16.814Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/carbon-footprint-tracker-8f346 {"projectNumber":"974402368816","projectId":"carbon-footprint-tracker-8f346","lifecycleState":"ACTIVE","name":"carbon-footprint-tracker","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-01-04T11:45:39.261238Z"}
+[info] 
+[info] === Serving from 'C:\Users\Dell\Documents\carbon-tracker'...
+[info] 
+[debug] [2026-01-05T05:49:16.820Z] Checked if tokens are valid: true, expires at: 1767595373879
+[debug] [2026-01-05T05:49:16.820Z] Checked if tokens are valid: true, expires at: 1767595373879
+[debug] [2026-01-05T05:49:16.821Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/carbon-footprint-tracker-8f346/sites 
+[debug] [2026-01-05T05:49:19.352Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/carbon-footprint-tracker-8f346/sites 200
+[debug] [2026-01-05T05:49:19.352Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/carbon-footprint-tracker-8f346/sites {"sites":[{"name":"projects/carbon-footprint-tracker-8f346/sites/carbon-footprint-tracker-8f346","defaultUrl":"https://carbon-footprint-tracker-8f346.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2026-01-05T05:49:19.352Z] Checked if tokens are valid: true, expires at: 1767595373879
+[debug] [2026-01-05T05:49:19.352Z] Checked if tokens are valid: true, expires at: 1767595373879
+[debug] [2026-01-05T05:49:19.352Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/carbon-footprint-tracker-8f346/webApps/-/config [none]
+[debug] [2026-01-05T05:49:21.142Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/carbon-footprint-tracker-8f346/webApps/-/config 200
+[debug] [2026-01-05T05:49:21.142Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/carbon-footprint-tracker-8f346/webApps/-/config {"projectId":"carbon-footprint-tracker-8f346","appId":"1:974402368816:web:564230b6e97be00a9344f5","storageBucket":"carbon-footprint-tracker-8f346.firebasestorage.app","apiKey":"AIzaSyAE5uaiGdKzfRu5XZD7MlgFC8OmR5iu4Q8","authDomain":"carbon-footprint-tracker-8f346.firebaseapp.com","messagingSenderId":"974402368816","projectNumber":"974402368816","version":"2"}
+[debug] [2026-01-05T05:49:21.147Z] Checked if tokens are valid: true, expires at: 1767595373879
+[debug] [2026-01-05T05:49:21.147Z] Checked if tokens are valid: true, expires at: 1767595373879
+[debug] [2026-01-05T05:49:21.147Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/carbon-footprint-tracker-8f346 [none]
+[debug] [2026-01-05T05:49:21.627Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/carbon-footprint-tracker-8f346 200
+[debug] [2026-01-05T05:49:21.627Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/carbon-footprint-tracker-8f346 {"projectId":"carbon-footprint-tracker-8f346","projectNumber":"974402368816","displayName":"carbon-footprint-tracker","name":"projects/carbon-footprint-tracker-8f346","resources":{"hostingSite":"carbon-footprint-tracker-8f346"},"state":"ACTIVE","etag":"1_0460f297-d5af-4ce3-a5e2-9cba226230c5"}
+[info] i  hosting[carbon-footprint-tracker-8f346]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[carbon-footprint-tracker-8f346]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [05/Jan/2026:05:49:31 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [05/Jan/2026:05:49:31 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}

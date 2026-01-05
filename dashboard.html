@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Enter Your Daily Activities</h2>
+
+<h3>🚗 Travel</h3>
+<select id="travel">
+  <option value="0">Bike</option>
+  <option value="0.089">Bus</option>
+  <option value="0.21">Car</option>
+  <option value="0.041">Train</option>
+</select>
+<input id="km" placeholder="Distance (km)">
+
+<h3>⚡ Electricity Usage (Hours Today)</h3>
+<input id="fan" placeholder="Fan hours">
+<input id="light" placeholder="Light hours">
+<input id="laptop" placeholder="Laptop hours">
+<input id="ac" placeholder="AC hours">
+<input id="tv" placeholder="TV hours">
+
+<h3>🍽️ Food</h3>
+<select id="food">
+  <option value="1.5">Veg</option>
+  <option value="3.3">Non-Veg</option>
+  <option value="1.0">Vegan</option>
+</select>
+
+<br><br>
+<button onclick="calculate()">Calculate</button>
+
+<h3 id="result"></h3>
+<div id="tips" style="font-weight:bold;color:green;"></div>
+
+<div class="chart-box">
+  <h3>📊 Your Carbon Footprint Trend</h3>
+  <canvas id="chart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
